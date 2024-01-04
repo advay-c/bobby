@@ -1,0 +1,17 @@
+{
+    "title": "Bobby's Portfolio",
+    "description": {
+        "description-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non mattis ante, ut consectetur mi. Vivamus ac risus orci. Pellentesque faucibus mauris tellus, et ultricies ipsum viverra eget. Donec at eleifend elit. Cras id faucibus velit. Aliquam nec gravida dolor, id facilisis nulla. Sed neque arcu, pretium vitae urna et, suscipit tincidunt ante. Maecenas finibus ornare tempor. Quisque semper quam sit amet velit pretium rhoncus. ",
+        "img-1": "https://i.imgur.com/BHoE9pb.jpeg",
+        "img-2": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg"
+    },
+    "sections":[
+        {
+            "name": "Achievements",
+            "text": "img"
+        },
+        {
+            "name": "Academics"
+        }
+    ]
+}

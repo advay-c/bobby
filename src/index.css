@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  font-family: 'League Spartan', sans-serif;
+  scroll-behavior: smooth;
+}
+#triangle::after{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+.ReactModal__Content {
+  scale: 0;
+  transition: scale 200ms ease-in-out;
+
+}
+.ReactModal__Content--after-open{
+  scale: 1;
+
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+  opacity: 0;
+}
