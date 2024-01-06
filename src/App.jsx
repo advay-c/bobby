@@ -25,8 +25,8 @@ function App() {
       <div className='bg-background g p-4 min-h-screen flex flex-col items-center'>
         <section className='title h-screen flex flex-col items-center justify-center text-brnd-200'>
           <div className='title-and-description relative text-left w-3/4'>
-            <h1 className='text-5xl font-bold'>{config.title}</h1>
-            <h3>{config.description['description-text']}</h3>
+            <h1 className='text-5xl font-bold mb-2'>{config.title}</h1>
+            <h3 className="text-lg">{config.description['description-text']}</h3>
             <div className='relative mt-[12.5%]'>
               <button className='self-center  bg-brnd-400 absolute translate-x-[-50%] left-[50%] px-16 py-4 text-lg text-brnd-100' onClick={() => document.getElementById(config.sections[0].name).scrollIntoView({behavior:"smooth"})}>Next</button>
             </div>
@@ -126,44 +126,48 @@ function App() {
                 window.scrollTo(0, parseInt(scrollY || '0') * -1)
               }}
             >
-              <div className='w-[80vw] bg-gray-900 rounded-md p-4 max-h-screen flex flex-col text-gray-300 gap-2 text-xl'>
-                <div>
+              <ul className='w-[80vw] bg-gray-900 rounded-md p-4 max-h-screen flex flex-col text-gray-300 gap-2 text-xl list-disc'>
+                <li>
 
                   Distinction Award in Waterloo’s Mathametic Gauss Contest
                   2022
-                </div>
+                </li>
 
-                <div>
+                <li>
 
                 Caravan Short Storry Contestant
                 Written a short story that was published in a book with a collection of young canadians creative novels (2019)
-                </div>
+                </li>
 
-                <div>
+                <li>
 
                 Glenforest Secondary School Academic Excellence Award
                 Acheived an overall average of 85%+
-                </div>
+                </li>
 
-                <div>
+                <li>
 
                 Chess Prodigy
                 Published on local frontpage news article The guardian - Etobicoke
-                </div>
+                </li>
 
-                <div>
+                <li>
 
                 Captain of Jr Boys Basketball Team 
-                </div>
+                </li>
+                <li>
+                  Enrolled for 3 Years, MYP Program (2019 - 2022)
+                </li>
+                <li>
+                  Enrolled for 4 Years, IB Program (2022 - 2026)
+                </li>
 
-
-              </div>
+              </ul>
             </Modal>
           </div>
         </section>
         <section className="h-screen flex flex-col items-center justify-center">
-          <h2 className="text-6xl text-white">This Was my Ted-Talk</h2>
-          <h4 className="text-3xl text-gray-400">Thank You!</h4>
+          <h2 className="text-6xl text-white">Contact Me Here!</h2>
           <a className='bg-gray-900 p-2' href="https://instagram.com/bobbyf0814">
             <span style={{fontSize: 40}}>
                 <span style={{color: "red"}}>
@@ -172,6 +176,7 @@ function App() {
                 </span>
             </span>
           </a>
+          <a href = "mailto: fangbobby146@gmail.com">Send Me a Email!</a>
 
         </section>
       </div>
