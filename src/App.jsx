@@ -166,31 +166,34 @@ function App() {
             </Modal>
           </div>
         </section>
-        <section className="h-screen flex flex-col items-center justify-center text-white">
-          <h2 className="text-6xl text-white">Contact Me Here!</h2>
-          <a className='bg-gray-900 p-2' href="https://instagram.com/bobbyf0814">
-            <span style={{fontSize: 40}}>
+          <div className="container mx-auto">
+          <section className="h-screen flex flex-col items-center justify-center text-white">
+            <h2 className="text-6xl text-white mb-7">Contact Me Here!</h2>
+            <div className="flex">
+              <a className='bg-gray-900 p-9' href="https://instagram.com/bobbyf0814">
+                <span style={{fontSize: 50}}>
+                  <span style={{color: "red"}}>
+                    <i className="fab fa-instagram mr-20"></i>
+                  </span>
+                </span>
+              </a>
+              <a className='bg-gray-900 p-9' href="https://instagram.com/bobbyf0814">
+            <span style={{fontSize: 50}}>
                 <span style={{color: "red"}}>
-                    <i className="fab fa-instagram mr-2"></i>
+                    <i className="fab fa-linkedin mr-20"></i>
                 </span>
             </span>
-          </a>
-          <a className='bg-gray-900 p-2' href="https://instagram.com/bobbyf0814">
-            <span style={{fontSize: 40}}>
-                <span style={{color: "red"}}>
-                    <i className="fab fa-linkedin mr-2"></i>
+              </a>
+              <a className='bg-gray-900 p-9' href="mailto: fangbobby146@gmail.com">
+                <span style={{fontSize: 50}}>
+                  <span style={{color: "red"}}>
+                    <i className="fa fa-envelope"></i>
+                  </span>
                 </span>
-            </span>
-          </a>
-          <a className='bg-gray-900 p-2' href="mailto: fangbobby146@gmail.com">
-            <span style={{fontSize: 40}}>
-                <span style={{color: "red"}}>
-                    <i className="fab fa-mail mr-2"></i>
-                </span>
-            </span>
-          </a>
-
-        </section>
+              </a>
+            </div>
+          </section>
+        </div>
       </div>
     </>
   )
